@@ -4,7 +4,7 @@ public class Q4024 {
         int y = target[1];
         int min = Integer.MAX_VALUE,index=-1;
         for(int i=0;i<drones.length;i++){
-            int manhattan = Math.abs(x-drones[i][0])+Math.abs(x-drones[i][1]);
+            int manhattan = Math.abs(x-drones[i][0])+Math.abs(y-drones[i][1]);
             if(manhattan<=drones[i][2]){
                 if(min>manhattan){
                     min=manhattan;
