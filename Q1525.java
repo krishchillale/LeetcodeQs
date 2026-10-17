@@ -19,7 +19,7 @@ public class Q1525 {
             }
             arr1[i]=count1;
             if(!hashSet2.contains(s.charAt(n-i-1))){
-                hashSet2.add(s.charAt(i));
+                hashSet2.add(s.charAt(n-1-i));
                 count2++;
             }
             arr2[n-1-i]=count2;
