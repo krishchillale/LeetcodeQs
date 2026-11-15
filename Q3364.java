@@ -20,6 +20,7 @@ public class Q3364
                 }
             }
         }
+
         if(min==Integer.MAX_VALUE){
             return -1;
         }
